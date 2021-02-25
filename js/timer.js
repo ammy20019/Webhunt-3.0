@@ -1,5 +1,5 @@
 
-var countDownDate = new Date("Feb 26, 2021 12:00:00").getTime();
+var countDownDate = new Date("Mar 7, 2021 12:00:00").getTime();
 
 
 var x = setInterval(function() {
