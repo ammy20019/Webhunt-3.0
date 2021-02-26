@@ -1,20 +1,23 @@
 .image{
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 100%;
     background: #424242;
     margin: auto;
-    border-radius: 35px;
-    padding: 10px;
+    border-radius: 25px;
+    border: 5px;
+    border-style: solid;
+    border-color: #00ff99;
 }
 
 .bg-custom{
-    background-color: #00ff99;
+    background-color: #33ffad;
     box-shadow: 5px 7px 5px #66ffc2;
     border-radius: 25px;
 }
 
 body{
-    background-color: black;
+    background: #222 url('../images/bg.png') center center no-repeat;
+    font-family:'Source Sans Pro', sans-serif;
 }
 
 .level{
@@ -39,7 +42,7 @@ body{
 
 /*https://unsplash.it/1920/1080/?random*/
 #cover {
-    background: #222 url('header-bg.jpg') center center no-repeat;
+    background: #222 url('https://unsplash.it/1920/1080/?random') center center no-repeat;
     background-size: cover;
     height: 100%;
     text-align: center;
