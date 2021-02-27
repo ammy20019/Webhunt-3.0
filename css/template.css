@@ -74,3 +74,25 @@ body{
     z-index: -1;
     border-radius: 10px;
 }*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+ 
+}
+
+.alert{    
+    margin: auto !important;
+    width: 50% !important;
+    padding: 10px !important;
+      background-color: white;
+      color:black;
+    }
+
+.button1{
+  margin-top:20%;
+  padding:20px;
+}

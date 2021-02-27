@@ -16,7 +16,10 @@ var x = setInterval(function() {
     
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timeer").innerHTML = "EXPIRED";
+    document.getElementById("timer").innerHTML = "TIMEOUT";
+    var url= "https://webhunt3.herokuapp.com/api/timeup"; 
+    window.location = url; 
+
   }
 }, 1000);
 
