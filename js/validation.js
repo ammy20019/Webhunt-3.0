@@ -1,32 +1,37 @@
+function redirectLB() {
+      window.location.href = "https://webhunt3.herokuapp.com/api/leader/display";
+    } 
 
+function logout() {
+      window.location.href = "https://webhunt3.herokuapp.com/api/signout";
+    } 
 
-var modal = document.getElementById("myModal");
+ document.addEventListener('contextmenu', event => event.preventDefault())
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+// var modal = document.getElementById("myModal");
+// var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-function checkAns() {
-  var x;
+// var span = document.getElementsByClassName("close")[0];
+// function checkAns() {
+//   var x;
 
-  x = document.getElementById("answerBox").value;
-  if (x > 10) {
-    window.location.href = "challenge1.html";
-  } else {
-    modal.style.display = "block";
-    // alert("Oops! Try again Captain!");
-  }
-}
+//   x = document.getElementById("answerBox").value;
+//   if (x > 10) {
+//     window.location.href = "challenge1.html";
+//   } else {
+//     modal.style.display = "block";
+//   }
+// }
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+// span.onclick = function() {
+//   modal.style.display = "none";
+// }
+// window.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// }
 
 // function myFunction() {
 //   var x = document.getElementById("myDIV");

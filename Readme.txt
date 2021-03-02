@@ -7,15 +7,20 @@
 7. tom
 8. binary
 9. flutter
-10. cocoa
+10. tor
 11. wannacry
 12. Wiki
 13. fortran 
-14. google
-15. ada lovelace
-16 Ruby on rails
-17. tor
+14. google - encode decode
+15. Malware
+16. Imgroot -vigenere cipher
+17. cocoa
 18. localhost
-19. Malware
-20. Imgroot -vigenere cipher
+19. ada lovelace
+20. Ruby on rails
  
+11:16:40 
+bonus questions
+thank you page
+type="submit"
+leaderboard and logout
