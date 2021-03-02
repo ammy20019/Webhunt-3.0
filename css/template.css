@@ -10,9 +10,17 @@
 }
 
 .bg-custom{
-    background-color: #33ffad;
-    box-shadow: 5px 7px 5px #66ffc2;
-    border-radius: 25px;
+    background-color: #333333;
+    color: white;
+}
+
+#log-out{
+    background-color:white;
+    color: #333333;
+}
+
+#navbar-timer{
+  color: white;
 }
 
 body{

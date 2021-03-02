@@ -18,9 +18,3 @@
 18. localhost
 19. ada lovelace
 20. Ruby on rails
- 
-11:16:40 
-bonus questions
-thank you page
-type="submit"
-leaderboard and logout
