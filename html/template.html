@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Level 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="../css/template.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital@1&family=Jura:wght@700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/challenge1.css">
+  </head>
+<style type="text/css">
+  body{
+    font-family: 'Orbitron', sans-serif;
+}
+
+</style>
+  
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-custom" style="z-index: 132;">
+      <a href="#" class="navbar-brand" style="color: white;font-size: 20px;">WebHunt 3.0</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" style="background-color: white;" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav">
+              <a class="nav-item nav-link ml-auto mr-auto" style="color: white;font-size: 20px" onclick="redirectLB()" >LeaderBoard</a>
+              <div
+            class="nav-link nav navbar-nav nav-item navbar-right" id="timer"
+            id="navbar-timer"
+            style="font-size: 20px;
+            color:white;
+          margin: auto;">
+          </div>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <button
+        class="btn btn-dark my-2 my-sm-0 nav-item nav-link" 
+        style="border-radius: 10px;"
+        type="submit"
+        id="log-out"
+        onclick="logout()"
+      >
+        Logout
+          </button>
+          </div>
+      </div>
+  </nav>
+    <br />
+<section class="min-vh-100">
+        
+
+        <div class="container col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center" style="height: 480px;"> 
+      <p class="level">Level - 1</p><br><br>
+      <div class="regular glitch" data-text="Read between" style="font-size: 62px;font-family: 'Balsamiq Sans'">Read between</div>
+        <div class="hidden">Look at my style!</div>
+        <div class="regular glitch" data-text="this lines" style="font-size: 62px;font-family: 'Balsamiq Sans'">this lines</div>
+      
+    </div>
+
+    <div class="container">
+        <div class="row text-white">
+          <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+          <div class="px-2">
+           <form action="" class="justify-content-center">
+          <div class="input-group mb-3" id="inputgroup">
+        <input
+          type="text"
+          class="form-control justify-content-center"
+          placeholder="Enter answer here"
+          aria-describedby="button-addon2"
+          id="answerBox"
+        />
+        <div class="input-group-append">
+          <button
+            class="btn btn-outline-light"
+            type="button"
+            id="button-addon2"
+            onclick="checkAns()"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+        </form>
+        </div>
+        </div>
+         </div>
+        </div>
+    
+</section>
+
+
+    
+  </body>
+  <script src="../js/timer.js"></script>
+</html>
